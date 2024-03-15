@@ -8,7 +8,7 @@ import seaborn as sns
 penguins_df = load_penguins()
 
 # Set up the UI page options
-ui.page_opts(title="Penguin Data with Dgraves4", fillable=True)
+ui.page_opts(title="Palmer Penguin Data with Dgraves4", fillable=True)
 
 # Create the sidebar for user interaction
 with ui.sidebar(open="open"):
